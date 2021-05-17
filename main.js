@@ -79,9 +79,9 @@ function car1_up(){
     {
        car1_y=car1_y-10;
         console.log("when up arrow is pressed, x=" + car1_x + "y=" + car1_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
 
@@ -91,9 +91,9 @@ function car1_down(){
     {
        car1_y=car1_y+10;
         console.log("when down arrow is pressed, x=" + car1_x + "y=" + car1_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
 
@@ -102,9 +102,9 @@ function car1_left(){
     {
        car1_x=car1_x-10;
         console.log("when left arrow is pressed, x=" + car1_x + "y=" + car1_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
 
@@ -114,9 +114,9 @@ function car1_right(){
     {
        car1_x=car1_x+10;
         console.log("when right arrow is pressed, x=" + car1_x + "y=" + car1_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
     if(car1_x > 650)
 {
@@ -130,10 +130,10 @@ function car2_right(){
     {
        car2_x=car2_x+10;
         console.log("when right arrow is pressed, x=" + car2_x + "y=" + car2_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
-    }
+    }       
     if(car2_x > 650)
 {
     console.log("car2_won")
@@ -147,9 +147,9 @@ function car2_down(){
     {
        car2_y=car2_y+10;
         console.log("when down arrow is pressed, x=" + car2_x + "y=" + car2_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
 
@@ -158,9 +158,9 @@ function car2_up(){
     {
        car2_y=car2_y-10;
         console.log("when up arrow is pressed, x=" + car2_x + "y=" + car2_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
 
@@ -169,9 +169,9 @@ function car2_left(){
     {
        car2_x=car2_x-10;
         console.log("when left arrow is pressed, x=" + car2_x + "y=" + car2_y);
+        uploadBackground();
         uploadcar1();
         uploadcar2();
-        uploadBackground();
     }
 }
     
